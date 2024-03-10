@@ -1,0 +1,4 @@
+- hosts: test1
+  tasks:
+    - name: Write to a file
+      shell: echo "Hello world from Ansible" > /tmp/ansible-file
